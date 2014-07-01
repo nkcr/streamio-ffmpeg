@@ -17,7 +17,7 @@ module FFMPEG
       params = codecs + presets + other
 
       params_string = params.join(" ")
-      params_string << " #{convert_aspect(calculate_aspect)}" if calculate_aspect?
+      #params_string << " #{convert_aspect(calculate_aspect)}" if calculate_aspect?
       params_string
     end
 
