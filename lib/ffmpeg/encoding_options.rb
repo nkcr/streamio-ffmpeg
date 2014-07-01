@@ -36,7 +36,7 @@ module FFMPEG
     end
 
     def convert_aspect(value)
-      #"-aspect #{value}"
+      "-aspect 1"
     end
 
     def calculate_aspect
